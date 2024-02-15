@@ -3,4 +3,4 @@
 console.log(a)
 
 
-const min_Bal=500
+//const min_Bal=500
