@@ -7,7 +7,7 @@ let createEmployee=(emp,callback)=>{
     setTimeout(()=>{
         employees.push(emp)
         callback()
-    },4000)
+    },10000)
 }
 
 let getEmployees=()=>{
@@ -23,4 +23,5 @@ let getEmployees=()=>{
         document.getElementById('abc').innerHTML  = rows
     },2000)
 }
+
 createEmployee({id:103,name:"Priya",sal:65000},getEmployees)
